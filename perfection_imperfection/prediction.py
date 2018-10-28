@@ -46,7 +46,8 @@ test_loader = torch.utils.data.DataLoader(dataset=test_datasets,
                                           batch_size=args.batch_size,
                                           shuffle=True)
 
-
+# train_datasets zip
+item = test_datasets.class_to_idx
 def main():
     print(f"total test numbers: {len(test_datasets)}.")
     # Load model
@@ -67,16 +68,21 @@ def main():
         # equal prediction and acc
         _, predicted = torch.max(outputs.data, 1)
 
-        # print(f"label kind:{labels}")           # 0:cat;  1:dog       # 0:imperfections ;  1:perfection
+        print(f"label kind:{labels}")           # 0:cat;  1:dog       # 0:imperfections ;  1:perfection
 
         print(f"predicted kind:{predicted}")
-
+        for i in range(len(predicted)):
+            file = str(test_datasets.imgs[i])[2:-5]
+            if int(predicted[i]) == 1:
+                print(f"{i+1}.({file}) is perfection!")
+            else:
+                print(f"{i+1}.({file}) is imperfection!")
         # val_loader total
         total += labels.size(0)
         # add correct
         correct += (predicted == labels).sum().item()
 
-    # print(f"Acc: {100 * correct / total:.4f}")
+    print(f"Acc: {100 * correct / total:.4f}")
 
 
 if __name__ == '__main__':
