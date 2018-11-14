@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c3d7be6-c2ef-4f7a-881f-ea908f397633" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/lbp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/pic_cutting.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/prediction_single.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/train_single.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perfection_imperfection/train_test_pic_cutting.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/scilearn_cat_dog.iml" afterPath="$PROJECT_DIR$/.idea/scilearn_cat_dog.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/README.md" afterPath="$PROJECT_DIR$/perfection_imperfection/README.md" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/imperfection/20174531054515_75011772137501177213O31071702162453_Pr000_e[]中pin、右pin焊点偏.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/imperfection/20174911214954_75011772147501177214O11121702447965_Pr000_e[]中pin、右pin焊点偏.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/imperfection/20175004165004_75011771757501177175O04081702172017_Pr000_e[]中pin、右pin焊点偏.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/imperfection/20175502135500_75011771767501177176O02081702167306_Pr000_e[]三对pin焊点偏.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/imperfection/75011771177501177117O19021701881365_Pr000中pin、右pin焊点偏，右pin焊黑.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/perfection/20180003150021_1466_P45_75011772027501177202O03101802995897_d37ac148c2b840e0a2a44720f48587e6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/perfection/20180003150046_1468_P45_75011772027501177202O03101802995898_cce33a4e2cfa47b19386bac630d0bacc.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/perfection/20180003160021_1683_P45_75011772027501177202O03101802996005_241813de5763453eb9a3b5d9512363b0.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/perfection/20180003160046_1685_P45_75011772027501177202O03101802996006_02b47426a86c459798b4f0c607eb344f.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/test/perfection/20180003170023_1877_P45_75011772027501177202O03101802996103_74e567401dca4cb7994150ecf5b27b3a.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/val/imperfection/75011771757501177175O01121702427910_Pr000.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/val/perfection/20180002200030_64_P45_75011772607501177260O02101802994000_9710a233dc8f4c3784bbb10dc119c9ce.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/val/perfection/20180002210002_264_P45_75011772607501177260O02101802994100_e5f1649120744c57a62c134203ddc848.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/data/Products/perfection_imperfection/val/perfection/20180002210023_266_P45_75011772607501177260O02101802994101_1f365e160f9e4968b235e8daaf53d034.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/models/pytorch/Products/perfection_imperfection/PerfectionImperfection.pth" afterPath="$PROJECT_DIR$/perfection_imperfection/models/pytorch/Products/perfection_imperfection/PerfectionImperfection.pth" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/prediction.py" afterPath="$PROJECT_DIR$/perfection_imperfection/prediction.py" />
-      <change beforePath="$PROJECT_DIR$/perfection_imperfection/train.py" afterPath="$PROJECT_DIR$/perfection_imperfection/train.py" />
-    </list>
+    <list default="true" id="8c3d7be6-c2ef-4f7a-881f-ea908f397633" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +37,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="79" column="63" lean-forward="false" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -88,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/perfection_imperfection/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <caret line="71" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -661,7 +633,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1949829" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1949829" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18830472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -938,7 +910,7 @@
         <state relative-caret-position="940">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="88" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,7 +970,7 @@
         <state relative-caret-position="1360">
           <caret line="68" column="51" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1008,7 +980,7 @@
         <state relative-caret-position="140">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
-            <element signature="e#28#43#0" expanded="true" />
+            <element signature="e#28#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1052,15 +1024,15 @@
     <entry file="file://$PROJECT_DIR$/perfection_imperfection/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <caret line="71" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="79" column="63" lean-forward="false" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
           <folding />
         </state>
       </provider>
