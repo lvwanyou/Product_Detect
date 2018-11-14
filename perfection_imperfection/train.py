@@ -43,9 +43,14 @@ if not os.path.exists(args.model_path):
 transform = transforms.Compose([
     transforms.Resize(128),  # 将图像转化为800 * 800
     transforms.RandomHorizontalFlip(p=0.75),  # 有0.75的几率随机旋转
-    transforms.RandomCrop(114),  # 从图像中裁剪一个24 * 24的
+    transforms.RandomCrop(114),  # 从图像中裁剪一个114 * 114的
     transforms.ToTensor(),  # 将numpy数据类型转化为Tensor
-    transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])  # 归一化
+    transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),  # 归一化
+    # transforms.FiveCrop((114,114))
+    # transforms.Lambda(lambda crops: torch.stack([transforms.ToTensor()(crop) for crop in crops])),
+    # transforms.Lambda(
+    #     lambda crops: torch.stack(
+    #         [transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])(crop) for crop in crops]))
 ])
 
 path2 = os.path.abspath('./data/')
@@ -73,9 +78,10 @@ def main():
     print(f"Train numbers:{len(train_datasets)}")
 
     # create module in the first time
-    model = torchvision.models.resnet18(pretrained=True).to(device)  # 导入 ResNet18网络作为模型
+    model = torchvision.models.resnet18(pretrained=True).to(device)  # 导入 ResNet50网络作为模型
     model.avgpool = nn.AvgPool2d(4, 1).to(device)
-    model.fc = nn.Linear(512, args.num_classes).to(device)
+
+    model.fc = nn.Linear(512, args.num_classes).to(device)   #  resNet18 : 512 ; resNet50 : 2048
 
     # Load model in the future.
     # if torch.cuda.is_available():
@@ -94,7 +100,12 @@ def main():
         model.train()
         # start time
         start = time.time()
+        # print(train_loader)
+        # print(train_loader.dataset.samples)
+        #print ( train_loader.dataset.samples)
+
         for images, labels in train_loader:
+            print(images.shape)
             images = images.to(device)
             labels = labels.to(device)
 
@@ -113,7 +124,7 @@ def main():
                   f"Loss: {loss.item():.8f}, "
                   f"Time: {(end-start) * args.display_epoch:.1f}sec!")
 
-            model.eval()
+            model.eval()    # Sets the module in evaluation mode.
 
             correct_prediction = 0.
             total = 0

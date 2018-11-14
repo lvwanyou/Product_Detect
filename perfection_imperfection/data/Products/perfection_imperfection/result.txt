@@ -1,0 +1,10 @@
+./data/Products/perfection_imperfection/val/perfection/imp1_left_middle_right.jpg: 不合格 ||    3
+./data/Products/perfection_imperfection/val/perfection/imp2_middle_right.jpg.jpg: 不合格 ||    1   3
+./data/Products/perfection_imperfection/val/perfection/imp3_middle_right.jpg: 不合格 ||    1   2   3
+./data/Products/perfection_imperfection/val/perfection/imp4_middle_right.jpg: 不合格 ||    2   3
+./data/Products/perfection_imperfection/val/perfection/imp5_middle_rightB.jpg.jpg: 不合格 ||    2
+./data/Products/perfection_imperfection/val/perfection/p1.jpg: 合格
+./data/Products/perfection_imperfection/val/perfection/p2.jpg: 合格
+./data/Products/perfection_imperfection/val/perfection/p3.jpg: 合格
+./data/Products/perfection_imperfection/val/perfection/p4.jpg: 合格
+./data/Products/perfection_imperfection/val/perfection/p5.jpg: 合格
